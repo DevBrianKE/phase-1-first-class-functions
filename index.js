@@ -13,5 +13,8 @@ function returnsANamedFunction() {
 }
 
 function returnsAnAnonymousFunction() {
-    return  () => 'Ananymous the hacker'
-}
+    return function() {
+      console.log("This is an anonymous function");
+    };
+  }
+  
