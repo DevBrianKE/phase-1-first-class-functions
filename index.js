@@ -3,12 +3,10 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction() {
-
-    return namedFunction = () => console.log('This is a named function')
-    // function namedFunction() {
-    //     console.log("This is a named function");
-    //   }
-    //   return namedFunction;
+    function namedFunction() {
+        console.log("This is a named function");
+      }
+      return namedFunction;
       
 }
 
