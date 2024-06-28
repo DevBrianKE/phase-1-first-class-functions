@@ -3,7 +3,13 @@ function receivesAFunction(callback){
 }
 
 function returnsANamedFunction() {
-    return  add = (a,b) => a + b
+
+    return namedFunction = () => console.log('This is a named function')
+    // function namedFunction() {
+    //     console.log("This is a named function");
+    //   }
+    //   return namedFunction;
+      
 }
 
 function returnsAnAnonymousFunction() {
